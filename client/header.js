@@ -4,6 +4,6 @@ Template.header.created = function () {
 
 Template.header.events({
   'keyup input#search': function (evt) {
-  	Session.set('search', evt.currentTarget.value);;
+  	Session.set('search', evt.currentTarget.value);
   }
 });
