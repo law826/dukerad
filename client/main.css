@@ -1,0 +1,30 @@
+/* CSS declarations go here */
+
+main {
+ padding-left: 300px;
+}
+
+.page-title {
+	font-size: 30px;
+}
+
+.page-title-container {
+	margin-left: 20px;
+}
+
+.providericon {
+	margin-right: 10px;
+	font-size: 18px;
+}
+
+.nurse {
+	color: gray;
+}
+
+.card-title {
+	border-bottom: 1px solid rgba(160, 160, 160, 0.2);
+}
+
+#section-title {
+	font-size: 20px;
+}
