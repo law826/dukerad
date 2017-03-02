@@ -46,14 +46,14 @@ Template.information.helpers({
                 })
 	},
   providericon: function () {
-    if (this.person.startsWith("RN")) {
+    if (this.person.includes("RN")) {
       return '<i class="fa fa-heartbeat providericon"></i>'
     } else {
       return '<i class="fa fa-user-md providericon"></i>'
     }
   },
   stafftype: function () {
-    if (this.person.startsWith("RN")) {
+    if (this.person.includes("RN")) {
       return 'nurse'
     } else {
       return 'provider'

@@ -82,6 +82,19 @@ db.phoneNumbers.insert({
 })
 
 
+/// Run this after exporting a TSV from google docs. 
+dos2unix /Users/ln30/Git/dukerad/phonenumbers.tsv /Users/ln30/Git/dukerad/phonenumbers.tsv
+// sed 's/\r$//' phonenumbers.tsv > phonenumbers2.tsv
+// sed 's!\\r\\n!<p/>!g' phonenumbers.tsv > phonenumbers2.tsv
+// tr -d '\r' phonenumbers.tsv > phonenumbers2.tsv
+
+///Code to import csv. 
+// http://stackoverflow.com/questions/4686500/how-to-use-mongoimport-to-import-csv
+mongoimport --port 3001 -d meteor -c tmppn --type tsv --file phonenumbers.tsv --headerline
+
+///////
+// Code to reorganize phone numbers. Run on mongo.
+load("/Users/ln30/Git/dukerad/.other/reorganize_phone.js")
 //////
 
 

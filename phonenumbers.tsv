@@ -1,0 +1,86 @@
+person	number	location	misc	type	department
+PA	681-4417	CEU	E1-E11	Providers	ED
+CEU RN 1	681-4455	CEU	E1-E11	Providers	ED
+Provider	681-4432	Fast track/Speed	F8-F15	Providers	ED
+Provider	681-4420	Fast track/Speed	F8-F15	Providers	ED
+Junior resident 1	684-4452	Peds	P1-P7 P16-P18	Providers	ED
+Junior resident 2:	684-4475	Peds	P1-P7 P16-P18	Providers	ED
+Senior resident	681-4404	Peds	P1-P7 P16-P18	Providers	ED
+Attending	681-4447	Peds	P1-P7 P16-P18	Providers	ED
+Peds RN 1	681-7484	Peds	P1-P7 P16-P18	Providers	ED
+Peds RN 2	681-7485	Peds	P1-P7 P16-P18	Providers	ED
+Peds RN TL	681-4405	Peds	P1-P7 P16-P18	Providers	ED
+Junior resident	684-4446		A19-A24 A50-A55 HALL	Providers	ED
+Senior resident	681-4407	Pod A	Resus 1-2 during off hours	Providers	ED
+Attending	681-4403	Pod A		Providers	ED
+A19,A20,A21,A22 RN	681-4446	Pod A		Providers	ED
+A23,A24,A50,A51 RN	681-5756	Pod A		Providers	ED
+A52,A53,A54,A55 RN	681-5765	Pod A		Providers	ED
+Junior resident	684-4449	Pod B	B25-B29 B43-B49 EYE	Providers	ED
+PA	681-4409	Pod B		Providers	ED
+Attending	681-4181	Pod B		Providers	ED
+Junior resident	684-4451	Pod C	C31-C42 S1-S8	Providers	ED
+Senior resident	681-4408	Pod C	Resus 3-4 during off hours	Providers	ED
+Attending	681-4416	Pod C		Providers	ED
+C31,C32,C33,C34 RN	681-4586	Pod C		Providers	ED
+C35,C40,C41,C42 RN	681-7401	Pod C		Providers	ED
+C36,C37,C38,C39 RN	681-7456	Pod C		Providers	ED
+B25,B26,B28,EYE RN	681-4444	Pod B	B25-B29 B43-B49 EYE	Providers	ED
+B29,B43,B44,B45 RN	681-5786	Pod B		Providers	ED
+B46,B47,B48,B49 RN	681-5793	Pod B		Providers	ED
+Junior resident	684-4403	Resus	3-11pm M-F only	Providers	ED
+Senior resident	681-4535	Resus	3-11pm M-F only	Providers	ED
+Resus RN	681-5755	Resus		Providers	ED
+Resus RN TL	681-4445	Resus		Providers	ED
+MD	681-4412	Waiting room/Triage/Power		Providers	ED
+Triage RN 1	681-4414	Waiting room/Triage/Power		Providers	ED
+Triage RN 2	681-5754	Waiting room/Triage/Power		Providers	ED
+Triage RN 3	681-5747	Waiting room/Triage/Power		Providers	ED
+Intake Nurse	681-4741	Waiting room/Triage/Power		Providers	ED
+Power	681-4420	Waiting room/Triage/Power		Providers	ED
+Charge Nurse	681-4410			Providers	ED
+Flow Nurse	684-4705			Providers	ED
+Resource Nurse	681-6809			Providers	ED
+Xray	684-1278			Techs	ED
+Body CT/MRI	684-7224	Body		Reading Rooms	
+Bone Plain Film 1	684-7247	MSK		Reading Rooms	
+Bone Plain Film 2	684-7494	MSK		Reading Rooms	
+Bone Plain Film 3	684-0576	MSK		Reading Rooms	
+Bone Plain Film 4	684-7497	MSK		Reading Rooms	
+Bone Plain Film 5	684-7527	MSK		Reading Rooms	
+Bone Plain Film 6	684-7438	MSK		Reading Rooms	
+Bone Plain Film 7	684-7191	MSK		Reading Rooms	
+Bone CT/Arthrograms/Biopsies	684-7465	MSK		Reading Rooms	
+Bone MR 1	684-7248	MSK		Reading Rooms	
+Bone MR 2	684-0369	MSK		Reading Rooms	
+Bone MR 3	684-0618	MSK		Reading Rooms	
+Bone @ Page Rd	613-1776	MSK		Reading Rooms	
+Breast MR	684-7946	Breast		Reading Rooms	
+Breast intervention	684-1308	Breast		Reading Rooms	
+Cancer Center Moonlighter	613-2744	Cancer Center		Reading Rooms	
+Cancer Center Reading Room 1	613-2741	Cancer Center		Reading Rooms	
+Cancer Center Reading Room 2	613-2742	Cancer Center		Reading Rooms	
+Cancer Center Reading Room 3	613-2743	Cancer Center		Reading Rooms	
+Cancer Center Reading Room 4	613-2744	Cancer Center		Reading Rooms	
+Cancer Center Reading Room 5	613-2745	Cancer Center		Reading Rooms	
+Cancer Center Reading Room 6	613-2746	Cancer Center		Reading Rooms	
+Chest CT	684-7419	Chest		Reading Rooms	
+Chest north films	684-7252	Chest		Reading Rooms	
+CVI	684-7414	CVI		Reading Rooms	
+GI	684-7250	GI		Reading Rooms	
+GU	684-7818	GI		Reading Rooms	
+Lenox Baker	684-1514	Lenox Baker		Reading Rooms	
+Mammo	684-7816	Breast		Reading Rooms	
+Neuro CT	684-7213	Neuro		Reading Rooms	
+Neuro MRI	684-7560	Neuro		Reading Rooms	
+Nuc Med	684-7207	Nucs		Reading Rooms	
+Nuc Med Pager	970-0720	Nucs		Reading Rooms	
+Peds	684-7288	Peds		Reading Rooms	
+OB	684-2595	FDC		Reading Rooms	
+PET 1	613-2094	Nucs		Reading Rooms	
+PET 2	613-2092	Nucs		Reading Rooms	
+Southpoint	572-2065	Southpoint		Reading Rooms	
+Ultrasound	684-7381	Ultrasound		Reading Rooms	
+Vascular resident	684-7592	IR		Reading Rooms	
+Vascular fellow	684-7383	IR		Reading Rooms	
+		Cancer Center		Techs	
