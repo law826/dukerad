@@ -9,5 +9,9 @@ Template.sidebar.events({
   },
   'click #section-title': function (evt) {
   	Session.set('context', '[a-zA-Z]+')
+  },
+  'click .ed-providers': function (evt) {
+    Session.set('context', 'EDProviders');
+    Session.set('search', '[a-zA-Z]+')
   }
 });
