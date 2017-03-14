@@ -1,86 +1,306 @@
-person	number	location	misc	type	department
-PA	681-4417	CEU	E1-E11	Providers	ED
-CEU RN 1	681-4455	CEU	E1-E11	Providers	ED
-Provider	681-4432	Fast track/Speed	F8-F15	Providers	ED
-Provider	681-4420	Fast track/Speed	F8-F15	Providers	ED
-Junior resident 1	684-4452	Peds	P1-P7 P16-P18	Providers	ED
-Junior resident 2:	684-4475	Peds	P1-P7 P16-P18	Providers	ED
-Senior resident	681-4404	Peds	P1-P7 P16-P18	Providers	ED
-Attending	681-4447	Peds	P1-P7 P16-P18	Providers	ED
-Peds RN 1	681-7484	Peds	P1-P7 P16-P18	Providers	ED
-Peds RN 2	681-7485	Peds	P1-P7 P16-P18	Providers	ED
-Peds RN TL	681-4405	Peds	P1-P7 P16-P18	Providers	ED
-Junior resident	684-4446		A19-A24 A50-A55 HALL	Providers	ED
-Senior resident	681-4407	Pod A	Resus 1-2 during off hours	Providers	ED
-Attending	681-4403	Pod A		Providers	ED
-A19,A20,A21,A22 RN	681-4446	Pod A		Providers	ED
-A23,A24,A50,A51 RN	681-5756	Pod A		Providers	ED
-A52,A53,A54,A55 RN	681-5765	Pod A		Providers	ED
-Junior resident	684-4449	Pod B	B25-B29 B43-B49 EYE	Providers	ED
-PA	681-4409	Pod B		Providers	ED
-Attending	681-4181	Pod B		Providers	ED
-Junior resident	684-4451	Pod C	C31-C42 S1-S8	Providers	ED
-Senior resident	681-4408	Pod C	Resus 3-4 during off hours	Providers	ED
-Attending	681-4416	Pod C		Providers	ED
-C31,C32,C33,C34 RN	681-4586	Pod C		Providers	ED
-C35,C40,C41,C42 RN	681-7401	Pod C		Providers	ED
-C36,C37,C38,C39 RN	681-7456	Pod C		Providers	ED
-B25,B26,B28,EYE RN	681-4444	Pod B	B25-B29 B43-B49 EYE	Providers	ED
-B29,B43,B44,B45 RN	681-5786	Pod B		Providers	ED
-B46,B47,B48,B49 RN	681-5793	Pod B		Providers	ED
-Junior resident	684-4403	Resus	3-11pm M-F only	Providers	ED
-Senior resident	681-4535	Resus	3-11pm M-F only	Providers	ED
-Resus RN	681-5755	Resus		Providers	ED
-Resus RN TL	681-4445	Resus		Providers	ED
-MD	681-4412	Waiting room/Triage/Power		Providers	ED
-Triage RN 1	681-4414	Waiting room/Triage/Power		Providers	ED
-Triage RN 2	681-5754	Waiting room/Triage/Power		Providers	ED
-Triage RN 3	681-5747	Waiting room/Triage/Power		Providers	ED
-Intake Nurse	681-4741	Waiting room/Triage/Power		Providers	ED
-Power	681-4420	Waiting room/Triage/Power		Providers	ED
-Charge Nurse	681-4410			Providers	ED
-Flow Nurse	684-4705			Providers	ED
-Resource Nurse	681-6809			Providers	ED
-Xray	684-1278			Techs	ED
-Body CT/MRI	684-7224	Body		Reading Rooms	
-Bone Plain Film 1	684-7247	MSK		Reading Rooms	
-Bone Plain Film 2	684-7494	MSK		Reading Rooms	
-Bone Plain Film 3	684-0576	MSK		Reading Rooms	
-Bone Plain Film 4	684-7497	MSK		Reading Rooms	
-Bone Plain Film 5	684-7527	MSK		Reading Rooms	
-Bone Plain Film 6	684-7438	MSK		Reading Rooms	
-Bone Plain Film 7	684-7191	MSK		Reading Rooms	
-Bone CT/Arthrograms/Biopsies	684-7465	MSK		Reading Rooms	
-Bone MR 1	684-7248	MSK		Reading Rooms	
-Bone MR 2	684-0369	MSK		Reading Rooms	
-Bone MR 3	684-0618	MSK		Reading Rooms	
-Bone @ Page Rd	613-1776	MSK		Reading Rooms	
-Breast MR	684-7946	Breast		Reading Rooms	
-Breast intervention	684-1308	Breast		Reading Rooms	
-Cancer Center Moonlighter	613-2744	Cancer Center		Reading Rooms	
-Cancer Center Reading Room 1	613-2741	Cancer Center		Reading Rooms	
-Cancer Center Reading Room 2	613-2742	Cancer Center		Reading Rooms	
-Cancer Center Reading Room 3	613-2743	Cancer Center		Reading Rooms	
-Cancer Center Reading Room 4	613-2744	Cancer Center		Reading Rooms	
-Cancer Center Reading Room 5	613-2745	Cancer Center		Reading Rooms	
-Cancer Center Reading Room 6	613-2746	Cancer Center		Reading Rooms	
-Chest CT	684-7419	Chest		Reading Rooms	
-Chest north films	684-7252	Chest		Reading Rooms	
-CVI	684-7414	CVI		Reading Rooms	
-GI	684-7250	GI		Reading Rooms	
-GU	684-7818	GI		Reading Rooms	
-Lenox Baker	684-1514	Lenox Baker		Reading Rooms	
-Mammo	684-7816	Breast		Reading Rooms	
-Neuro CT	684-7213	Neuro		Reading Rooms	
-Neuro MRI	684-7560	Neuro		Reading Rooms	
-Nuc Med	684-7207	Nucs		Reading Rooms	
-Nuc Med Pager	970-0720	Nucs		Reading Rooms	
-Peds	684-7288	Peds		Reading Rooms	
-OB	684-2595	FDC		Reading Rooms	
-PET 1	613-2094	Nucs		Reading Rooms	
-PET 2	613-2092	Nucs		Reading Rooms	
-Southpoint	572-2065	Southpoint		Reading Rooms	
-Ultrasound	684-7381	Ultrasound		Reading Rooms	
-Vascular resident	684-7592	IR		Reading Rooms	
-Vascular fellow	684-7383	IR		Reading Rooms	
-		Cancer Center		Techs	
+person	number	level1	level2	level3	misc
+PA	681-4417	Providers	ED	CEU	E1-E11
+CEU RN 1	681-4455	Providers	ED	CEU	E1-E11
+Provider	681-4432	Providers	ED	Fast track/Speed	F8-F15
+Provider	681-4420	Providers	ED	Fast track/Speed	F8-F15
+Junior resident 1	684-4452	Providers	ED	Peds	P1-P7 P16-P18
+Junior resident 2	684-4475	Providers	ED	Peds	P1-P7 P16-P18
+Senior resident	681-4404	Providers	ED	Peds	P1-P7 P16-P18
+Attending	681-4447	Providers	ED	Peds	P1-P7 P16-P18
+Peds RN 1	681-7484	Providers	ED	Peds	P1-P7 P16-P18
+Peds RN 2	681-7485	Providers	ED	Peds	P1-P7 P16-P18
+Peds RN TL	681-4405	Providers	ED	Peds	P1-P7 P16-P18
+Junior resident	684-4446	Providers	ED	Pod A	A19-A24 A50-A55 HALL
+Senior resident	681-4407	Providers	ED	Pod A	Resus 1-2 during off hours
+Attending	681-4403	Providers	ED	Pod A	
+A19,A20,A21,A22 RN	681-4446	Providers	ED	Pod A	
+A23,A24,A50,A51 RN	681-5756	Providers	ED	Pod A	
+A52,A53,A54,A55 RN	681-5765	Providers	ED	Pod A	
+Junior resident	684-4449	Providers	ED	Pod B	B25-B29 B43-B49 EYE
+PA	681-4409	Providers	ED	Pod B	
+Attending	681-4181	Providers	ED	Pod B	
+Junior resident	684-4451	Providers	ED	Pod C	C31-C42 S1-S8
+Senior resident	681-4408	Providers	ED	Pod C	Resus 3-4 during off hours
+Attending	681-4416	Providers	ED	Pod C	
+C31,C32,C33,C34 RN	681-4586	Providers	ED	Pod C	
+C35,C40,C41,C42 RN	681-7401	Providers	ED	Pod C	
+C36,C37,C38,C39 RN	681-7456	Providers	ED	Pod C	
+B25,B26,B28,EYE RN	681-4444	Providers	ED	Pod B	B25-B29 B43-B49 EYE
+B29,B43,B44,B45 RN	681-5786	Providers	ED	Pod B	
+B46,B47,B48,B49 RN	681-5793	Providers	ED	Pod B	
+Junior resident	684-4403	Providers	ED	Resus	3-11pm M-F only
+Senior resident	681-4535	Providers	ED	Resus	3-11pm M-F only
+Resus RN	681-5755	Providers	ED	Resus	
+Resus RN TL	681-4445	Providers	ED	Resus	
+MD	681-4412	Providers	ED	Waiting room/Triage/Power	
+Triage RN 1	681-4414	Providers	ED	Waiting room/Triage/Power	
+Triage RN 2	681-5754	Providers	ED	Waiting room/Triage/Power	
+Triage RN 3	681-5747	Providers	ED	Waiting room/Triage/Power	
+Intake Nurse	681-4741	Providers	ED	Waiting room/Triage/Power	
+Power	681-4420	Providers	ED	Waiting room/Triage/Power	
+Charge Nurse	681-4410	Providers	ED	ED Charge Nurse	
+Flow Nurse	684-4705	Providers	ED	ED Flow Nurse	
+Resource Nurse	681-6809	Providers	ED	Resource Nurse	
+Xray	684-1278	Techs	Radiographs	ED	
+Body CT/MRI	684-7224	Reading Rooms	Body	Body	
+Bone Plain Film 1	684-7247	Reading Rooms	MSK	MSK	
+Bone Plain Film 2	684-7494	Reading Rooms	MSK	MSK	
+Bone Plain Film 3	684-0576	Reading Rooms	MSK	MSK	
+Bone Plain Film 4	684-7497	Reading Rooms	MSK	MSK	
+Bone Plain Film 5	684-7527	Reading Rooms	MSK	MSK	
+Bone Plain Film 6	684-7438	Reading Rooms	MSK	MSK	
+Bone Plain Film 7	684-7191	Reading Rooms	MSK	MSK	
+Bone CT/Arthrograms/Biopsies	684-7465	Reading Rooms	MSK	MSK	
+Bone MR 1	684-7248	Reading Rooms	MSK	MSK	
+Bone MR 2	684-0369	Reading Rooms	MSK	MSK	
+Bone MR 3	684-0618	Reading Rooms	MSK	MSK	
+Bone @ Page Rd	613-1776	Reading Rooms	MSK	MSK	
+Breast MR	684-7946	Reading Rooms	Breast	Breast	
+Breast intervention	684-1308	Reading Rooms	Breast	Breast	
+Cancer Center Moonlighter	613-2744	Reading Rooms	Call Phones	Call Phones	
+Cancer Center Reading Room 1	613-2741	Reading Rooms	Cancer Center	Cancer Center	
+Cancer Center Reading Room 2	613-2742	Reading Rooms	Cancer Center	Cancer Center	
+Cancer Center Reading Room 3	613-2743	Reading Rooms	Cancer Center	Cancer Center	
+Cancer Center Reading Room 4	613-2744	Reading Rooms	Cancer Center	Cancer Center	
+Cancer Center Reading Room 5	613-2745	Reading Rooms	Cancer Center	Cancer Center	
+Cancer Center Reading Room 6	613-2746	Reading Rooms	Cancer Center	Cancer Center	
+Chest CT	684-7419	Reading Rooms	Chest	Chest	
+Chest north films	684-7252	Reading Rooms	Chest	Chest	
+CVI	684-7414	Reading Rooms	CVI	CVI	
+GI	684-7250	Reading Rooms	GI	GI	
+GU	684-7818	Reading Rooms	GI	GI	
+Lenox Baker Reading Room	684-1514	Reading Rooms	Offsite	Offsite	
+Mammo	684-7816	Reading Rooms	Breast	Breast	
+Neuro CT	684-7213	Reading Rooms	Neuro	Neuro	
+Neuro MRI	684-7560	Reading Rooms	Neuro	Neuro	
+Nucs (DMP)	684-7207	Reading Rooms	Nucs	Nucs	
+Peds	684-7288	Reading Rooms	Peds	Peds	
+OB (FDC) Reading Room	684-2595	Reading Rooms	Offsite	Offsite	
+PET 1	613-2094	Reading Rooms	Nucs	Nucs	
+PET 2	613-2092	Reading Rooms	Nucs	Nucs	
+Southpoint Reading Room	572-2065	Reading Rooms	Offsite	Offsite	
+Ultrasound	684-7381	Reading Rooms	Ultrasound	Ultrasound	
+Vascular resident	684-7592	Reading Rooms	IR	IR	
+Vascular fellow	684-7383	Reading Rooms	IR	IR	
+CT TL TECH CELL PHONE	613-2772	Techs	CT	Cancer Center CT	
+TL NURSE CELL PHONE	613-2774	Techs	CT	Cancer Center CT	
+CCT 1	613-2716	Techs	CT	Cancer Center CT	
+CCT 2	613-2715	Techs	CT	Cancer Center CT	
+CCT 3	613-2714	Techs	CT	Cancer Center CT	
+CCT 4	613-2713	Techs	CT	Cancer Center CT	
+CCT 5	613-2712	Techs	CT	Cancer Center CT	
+MR TL	613-2739	Techs	MR	Cancer Center MRI	
+PET Coordinator	684-7971	Techs	Nucs	Cancer Center PET	
+CMR1 (Skyra)	613-2734	Techs	MR	Cancer Center MRI	
+CMR2 (Skyra)	613-2735	Techs	MR	Cancer Center MRI	
+CMR3 (Optima)	613-2732	Techs	MR	Cancer Center MRI	
+Work Area	613-2733	Techs	MR	Cancer Center MRI	
+Cary Front Desk	385-8100	Techs	Offsite	Offsite	
+Cary Reading Room	385-8102	Reading Rooms	Offsite	Offsite	
+Cary MR Tech	684-1501	Techs	MR	Cary MRI	
+Control desk	684-7221	Techs	CT	Duke North CT	
+C1	684-7264	Techs	CT	Duke North CT	
+C3	684-7263	Techs	CT	Duke North CT	
+B5	684-7384	Techs	CT	Duke North CT	
+J1	684-7355	Techs	CT	Duke North CT	
+J3	684-7216	Techs	CT	Duke North CT	
+D1 (u/s intervention)	684-7437	Techs	Ultrasound	Ultrasound Intervention	
+CT Intervention desk	684-7331	Techs	CT	Duke North CT	
+ED CT	684-1276	Techs	CT	ED	
+CT team leader	613-2768	Techs	CT	Duke North CT	
+Nurse North	684-7328	Techs	CT	Duke North CT	
+DMP CT TL	385-1364	Techs	CT	DMP CT	
+DMP CT1	385-7562	Techs	CT	DMP CT	
+DMP CT2 (Discovery 750)	385-1362	Techs	CT	DMP CT	
+DMP CT3 (FORCE)	385-1361	Techs	CT	DMP CT	
+DMP CT Neuro Procedure Scanner	385-1365	Techs	CT	DMP CT	
+DMP MR TL	385-1381	Techs	MR	DMP MR	
+DMP MR2	385-1383	Techs	MR	DMP MR	
+DMP MR3	385-1384	Techs	MR	DMP MR	
+DMP MR4	385-1385	Techs	MR	DMP MR	
+DMP Reception	385-1441	Other	Duke	DMP	
+NICU	681-5551	Providers	Duke North	Duke North	N5500 Neonatal ICN
+PICU	681-5541	Providers	Duke North	Duke North	N5600 PICU
+PCICU	681-4241	Providers	Duke North	Duke North	N4200 PCICU 4200 peds cards ICU
+6E - MICU	385-6341	Providers	DMP	DMP	
+6W - Trauma/SICU	385-6941	Providers	DMP	DMP	
+6W SICU Resident	970-SICU (970-7428)	Providers	DMP	DMP	
+7E - Heart Center	385-7341	Providers	DMP	DMP	
+7W - Heart Center	385-7941	Providers	DMP	DMP	
+8E - Neurosciences	385-8341	Providers	DMP	DMP	
+8W - Neurosciences	385-8941	Providers	DMP	DMP	
+DMP Perioperative (PACU)	385-3322	Providers	DMP	DMP	
+DMP OR Front Desk	385-3901	Providers	DMP	DMP	
+2100 (General surgery)	681-2141	Providers	Duke North	Duke North	DUH N2100 GENERAL SURGERY
+2200	681-2241	Providers	Duke North	Duke North	
+2300 (General Surgery)	681-2341	Providers	Duke North	Duke North	DUH N2300 GENERAL SURGERY
+3300 (Cardiothoracic Surgery)	681-3341	Providers	Duke North	Duke North	DUH N3300 GEN THOR CARD SURG
+5400 (OB/Gyn triage)	681-6070	Providers	Duke North	Duke North	
+5700 (L&D Post Partum)	681-5741	Providers	Duke North	Duke North	DUH N5700 L D POST PARTUM
+5800 (OB Post Partum)	681-5841	Providers	Duke North	Duke North	DUH N5800 OB POST PARTUM
+6100 (Ortho surgery)	681-6141	Providers	Duke North	Duke North	DUH N6100 ORTHOPEDIC SURGERY
+7700 (Cardiac ICU)	385-7741	Providers	Duke North	Duke North	DUH N7700 CARDIAC INTENSE CARE
+PACU - DUKE NORTH PERIOP	681-3002	Providers	Duke North	Duke North	
+Pre-op Holding	684-4718	Providers	Duke North	Duke North	
+Central venous access team leader	812-6744	Providers	Duke North	Duke North	
+Where they place PICCs (3B PACU)	684-5035	Providers	Duke North	Duke North	
+Duke North, Outpatient–Location 7419	613-1772	Providers	Duke North	Duke North	
+Brier Creek	206-4889 (Option 0)	Providers	Duke Primary Care	Duke Primary Care	
+Brier Creek	206-4840, 206-4837 (direct)	Providers	Duke Primary Care	Duke Primary Care	
+Brier Creek RN	206-1347	Providers	Duke Primary Care	Duke Primary Care	
+Butner Creedmor	528-1535 (Option 3)	Providers	Duke Primary Care	Duke Primary Care	
+Butner Creedmor RN	385-3651 Emerg. Only	Providers	Duke Primary Care	Duke Primary Care	
+Croasdaile	383-4355 (Option 0)	Providers	Duke Primary Care	Duke Primary Care	
+DUC South	572-1868 (Option 0)	Providers	Duke Primary Care	Duke Primary Care	
+Henderson	252-492-3152(Option 3)	Providers	Duke Primary Care	Duke Primary Care	
+Hillsborough	732-8131 (Option 3)	Providers	Duke Primary Care	Duke Primary Care	
+Knightdale	373-1800 (Option 0)	Providers	Duke Primary Care	Duke Primary Care	
+Mebane	563-8400 (Option 0)	Providers	Duke Primary Care	Duke Primary Care	
+Morrisville	425-3185 (Option 0)	Providers	Duke Primary Care	Duke Primary Care	
+Timberlyne	942-8500 (Option 3)	Providers	Duke Primary Care	Duke Primary Care	
+Triangle Family	572-2000 (Option 3)	Providers	Duke Primary Care	Duke Primary Care	
+Wake Forest	570-6060 (Option 0)	Providers	Duke Primary Care	Duke Primary Care	
+Waverly Place	954-4159 (Option 3)	Providers	Duke Primary Care	Duke Primary Care	
+Croasdaile RN	613-8249	Providers	Duke Primary Care	Duke Primary Care	
+DUC South RN	660-0387	Providers	Duke Primary Care	Duke Primary Care	
+Henderson RN	252-738-2521, 970-8379 (Pager)	Providers	Duke Primary Care	Duke Primary Care	
+Knightdale RN	373-1868	Providers	Duke Primary Care	Duke Primary Care	
+Mebane RN	304-7195, 304-7187	Providers	Duke Primary Care	Duke Primary Care	
+Morrisville RN	425-3177	Providers	Duke Primary Care	Duke Primary Care	
+Timberlyne RN	370-3671, 370-3686, 370-3694	Providers	Duke Primary Care	Duke Primary Care	
+Triangle Family RN	613-7913	Providers	Duke Primary Care	Duke Primary Care	
+Wake Forest RN	660-1048	Providers	Duke Primary Care	Duke Primary Care	
+Waverly Place RN	954-4159 (Option 4)	Providers	Duke Primary Care	Duke Primary Care	
+Urgent Care After Hours Pager	970-6813	Providers	Duke Urgent Care	Duke Urgent Care	Includes:Knightdale Morrisville Brier Creek Croasdaile DUC South, Urgent Care open until 8 PM
+Radiology Main	954-3624	Other	Duke Raleigh	Duke Raleigh	
+Julaine Grady (admin) TTH	810-4165	Other	Duke Raleigh	Duke Raleigh	
+Nursing	862-5963	Techs	CT	Duke Raleigh	
+PACS-Trish Livingston	862-5950	Other	Duke Raleigh	Duke Raleigh	
+Eric Williams	862-5946	Other	Duke Raleigh	Duke Raleigh	
+Julaine Grady (admin) MWF	862-5003	Other	Duke Raleigh	Duke Raleigh	
+CT	954-3653	Techs	CT	Duke Raleigh	
+CT 1 (Main Hospital)	954-3368	Techs	CT	Duke Raleigh	
+CT 2 (Main Hospital)	954-3368	Techs	CT	Duke Raleigh	
+IR	954-3545	Techs	IR	Duke Raleigh	
+IR PA: Erin Gallagher	954-3629	Techs	IR	Duke Raleigh	
+MRI	954-3600, 954-3604	Techs	MR	Duke Raleigh	
+MRI MOBILE	862-5868	Techs	MR	Duke Raleigh	
+NM	954-3346 / 954-3555	Techs	Nucs	Duke Raleigh	
+PET	954-5259	Techs	Nucs	Duke Raleigh	
+CT/MRI	954-3597	Reading Rooms	Offsite	Duke Raleigh	
+Fluoro/Plain films/US	954-3619	Reading Rooms	Offsite	Duke Raleigh	
+IR	954-3636	Reading Rooms	Offsite	Duke Raleigh	
+General	862-5200	Other	Duke Raleigh	Duke Raleigh Outpatient Imaging Center	
+CT	862-5205	Techs	CT	Duke Raleigh Outpatient Imaging Center	
+Mammo	862-5211	Techs	Radiographs	Duke Raleigh Outpatient Imaging Center	
+Duke Raleigh Outpatient Imaging Center Reading Room	862-5204	Reading Rooms	Offsite	Offsite	
+US	862-5212	Techs	Ultrasound	Duke Raleigh Outpatient Imaging Center	
+CT	307-0013	Techs	CT	Macon Pond	
+Mammo	307-0082	Techs	Radiographs	Macon Pond	
+Macon Pond Reading Room	307-0091	Reading Rooms	Offsite	Offsite	
+US	307-0007	Techs	Ultrasound	Macon Pond	
+Main	954-3141	Other	Duke Raleigh	Ultrasound Center	
+Mary	954-3622	Other	Duke Raleigh	Ultrasound Center	
+Vascular work area	954-3712	Other	Duke Raleigh	Ultrasound Center	
+North + DMP	684-7285	Other	Duke	File Room	
+South 2nd fl (mammo)	684-7610	Other	Duke	File Room	
+Cancer Center	684-7625	Other	Duke	File Room	
+South basement	684-7860	Other	Duke	File Room	
+Peds	684-7341	Other	Duke	File Room	
+Warehouse	383-3713	Other	Duke	File Room	
+Outside Interpretation	684-7274	Other	Duke	File Room	
+Candie	684-7293	Other	Duke	Duke	
+operator	411	Other	Duke	Duke	
+Duke info	684-8111	Other	Duke	Duke	
+Page operator	113	Other	Duke	Duke	
+Code Blue	115	Other	Duke	Duke	
+Front desk @ DMP	684-2711	Other	Duke	Duke	
+Front desk @ DN	684-7200	Other	Duke	Duke	
+Centralized scheduling	684-7999	Other	Duke	Duke	
+Routine schedule	684-7640	Other	Duke	Duke	
+Diagnostic control desk	684-7313, 7312	Other	Duke	Duke	
+VA MOONLIGHTER	695-2447	Other	VA	VA	
+Duke North central lab	613-8400	Other	Duke	Duke	
+Breast MRI Aegis Rep General contact	866-735-3744	Other	Duke	Duke	
+General Duke Medicine Service Desk	684-2243	Other	Duke	Duke	
+Duke North MRI Main	684-7254	Techs	MR	Duke North MR	
+Duke North MR1 1.5T Siemens	684-7262	Techs	MR	Duke North MR	
+Duke North MR2 3T Siemens	684-7291	Techs	MR	Duke North MR	
+Duke North MR3 3T GE	684-7301	Techs	MR	Duke North MR	
+MR Lenox Baker MRI	684-1504, 684-1505	Techs	MR	Offsite	
+MR Page Road	684-1502	Techs	MR	Offsite	
+MR Southpoint scanner	572-2080	Techs	MR	Offsite	
+Senior Call Phone	681-4422	Reading Rooms	Call Phones	Call Phones	
+ER/Box Phone	681-4475	Reading Rooms	Call Phones	Call Phones	
+Junior Call Phone	681-4400	Reading Rooms	Call Phones	Call Phones	
+Late neuro	684-7213 (RR) / 681-4422 (after 5pm weekdays)	Reading Rooms	Call Phones	Call Phones	
+Neuro MR fellow	684-7564	Reading Rooms	Call Phones	Call Phones	
+Late body	684-7224	Reading Rooms	Call Phones	Call Phones	
+Vascular rad pager	970-7930	Reading Rooms	Call Phones	Call Phones	
+3D lab	684-8909	Other	Duke	Duke	
+CT General Anesthesia Coordination	684-7719	Techs	CT	Duke North CT	
+CT south	684-7960	Techs	CT	Duke South CT	
+CT Coordinator Cancer Center	613-2707	Techs	CT	Cancer Center CT	
+CT Southpoint CT	572-2088	Techs	CT	Offsite	
+Neuro CT	684-7315	Techs	CT	Duke North CT	
+DRAH CT flow coordinator (Julie Royster)	954-4659	Techs	CT	Duke Raleigh	
+DRAH CT manager (Dale Lake)	954-3234	Techs	CT	Duke Raleigh	
+PET	684-7714	Techs	Nucs	Cancer Center Nucs	
+Nuc Med Scheduling	684-7220	Techs	Nucs	DMP Nucs	
+Nuc Med (in house pgr)	970-7951	Techs	Nucs	DMP Nucs	
+Nuc Med (off-hours pager)	970-0720	Techs	Nucs	DMP Nucs	
+Nuc Tech Area (When is X scan going to be done)	684-7435/684-1700/613-2086	Techs	Nucs	DMP Nucs	
+Nucs Tech Cancer Center	613-2766	Techs	Nucs	Cancer Center Nucs	
+Overnight Nucs Tech (Main control room)	684-7702	Techs	Nucs	DMP Nucs	
+Ultrasound	684-7249	Techs	Ultrasound	Duke North Ultrasound	
+U/S tech area	684-7431	Techs	Ultrasound	Duke North Ultrasound	
+Chest pager	970-2365	Other	Duke	Duke	
+Vascular scheduling	684-7315	Techs	IR	IR	
+Vascular tech/nsg	684-7318,7454	Techs	IR	IR	
+IR coordinator	684-7281	Techs	IR	IR	
+Vascular Lab (ABI, etc.)	684-1474	Other	Duke	Duke	
+Routine proc	684-7313	Other	Duke	Duke	
+Trudy (worklist issues)	613-8330	Other	Duke	Duke	
+GI	684-7257 (also for LP)	Techs	GI	GI	
+Main Radiology	684-7312	Other	Duke	Duke	
+Page Rd Ortho	660-6442	Techs	Offsite	Offsite	
+Duke Orthopaedics	684-7630	Techs	Offsite	Offsite	
+Portables	684-7430	Techs	Radiographs	Radiographs	
+Peds	684-7302	Techs	Radiographs	Radiographs	
+Peds recovery	684-7340	Techs	IR	IR	
+Recovery room	684-7454	Techs	IR	IR	
+Duke South XR	684-7640	Techs	Radiographs	Radiographs	DUKE CLINIC 1F DIAGNOSTIC
+DMP XR / Portables	385-1332	Techs	Radiographs	Radiographs	
+Cancer Center XR	613-2749	Techs	Radiographs	Radiographs	
+GU	684-7697	Techs	Radiographs	Radiographs	
+Mammo	684-7641	Techs	Radiographs	Radiographs	
+VA Main Number	286-0411	Other	VA	VA	
+Sybil (VA)	286-0411 x2188	Other	VA	VA	
+VA Radiology front desk	286-0411 x6335 / 286-0411 x6995	Other	VA	VA	
+VA Radiology from outside	286-6995	Other	VA	VA	
+Nuc Med pager	970-3823	Techs	Nucs	VA	
+CT Tech pager	970-3146	Techs	CT	VA	
+Sonographer pager	970-1440	Techs	Ultrasound	VA	
+Vascular Tech pager	970-4412	Techs	IR	VA	
+ER	286-0411 x6304	Providers	VA	VA	
+CT scan control rm	286-0411 x6611	Techs	CT	VA	
+U/S area	286-0411 x6607	Techs	Ultrasound	VA	
+GI hall	286-0411 x7985	Techs	GI	VA	
+MRI techs	286-0411 x5818 / 5092	Techs	MR	VA	
+Nuc Med desk	286-0411 x6952 / 7350	Techs	Nucs	VA	
+Vascular hall	286-0411 x5028 / 7759	Techs	IR	VA	
+File room	286-0411 x6361	Other	VA	VA	
+Radiology nurse pgr	VA 30-1-0015	Techs	CT	VA	
+Vascular nurse pgr	VA 30-1-0018	Techs	IR	VA	
+Interventional recovery	5114/7080/7367	Techs	IR	VA	
+Cindy Bone	286-0411 x6826	Other	VA	VA	
+Dale Kuerbitz, AO	286-0411 x6606	Other	VA	VA	
+Michelle – TALK login issues	286-0411 x5264	Other	VA	VA	
+CPRS/PACS/other login issues	286-0411 x5812	Other	VA	VA	
+Betsy (Chief Tech)	286-6928	Techs	CT	VA	
+Outpt plain films	286-0411 x5262	Reading Rooms	VA	VA	
+Inpt plain films	286-0411 x7497	Reading Rooms	VA	VA	
+CT/Ultrasound	286-0411 x6622	Reading Rooms	VA	VA	
+MRI resident	286-0411 x6623	Reading Rooms	VA	VA	
+Neurorad	286-0411 x5680	Reading Rooms	VA	VA	
+Nucs	286-0411 x7357	Reading Rooms	VA	VA	

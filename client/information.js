@@ -18,30 +18,57 @@ function masonize(callback) {
 }
 
 Template.information.created = function () {
-  Session.set('context', '[a-zA-Z]+')
+  Session.set('level1', '[a-zA-Z]+')
+  Session.set('level2', '[a-zA-Z]+')
   Meteor.subscribe('phoneNumbers');
 }
 
 
 Template.information.helpers({
 	phonenumbers: function () {
-    var context = Session.get('context');
+    var level1 = Session.get('level1');
+    var level2 = Session.get('level2');
     var search = Session.get('search')
 		return Phonenumbers.find(
                 {$or: 
                   [
-                  {type: {$regex: context, "$options": "i"}, 
+                  {
+                  // The query is equal to the appropriate level 1 and 2 selection and the search term looks within the person field. 
+                  level1: {$regex: level1, "$options": "i"}, 
+                  level2: {$regex: level2, "$options": "i"}, 
                   'numbers.person': 
                     {
                       $regex: search, "$options": "i"
                     }
                   },
-                  {type: {$regex: context, "$options": "i"}, 
-                  'location': 
+                  // The query looks into the the level 1 field as well. 
+                  {
+                  level1: 
                     {
                       $regex: search, "$options": "i"
                     }
-                  }
+                  },
+                  // The query looks into the level 2 field. 
+                  {
+                  level2: 
+                    {
+                      $regex: search, "$options": "i"
+                    }
+                  },
+                  // Looks into level 3 field. 
+                  {
+                  level3: 
+                    {
+                      $regex: search, "$options": "i"
+                    }
+                  },
+                  // Looks into miscellaneous field.
+                  {
+                  misc: 
+                    {
+                      $regex: search, "$options": "i"
+                    }
+                  },
                   ]
                 })
 	},

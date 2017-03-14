@@ -1,21 +1,14 @@
 Template.sidebar.events({
   'click .level1': function (evt) {
-    Session.set('context', 'Providers');
-    Session.set('search', '[a-zA-Z]+')
+    evt.preventDefault();
+    var level1 = evt.currentTarget.innerText;
+    Session.set('level1', level1);
+    Session.set('search', '[a-zA-Z]+'); // resets the search term
   },
-  'click .providers': function (evt) {
-    Session.set('context', 'Providers');
-    Session.set('search', '[a-zA-Z]+')
-  },
-  'click .techs': function (evt) {
-    Session.set('context', 'Techs');
-    Session.set('search', '[a-zA-Z]+')
-  },
-  'click .ed-providers': function (evt) {
-    Session.set('context', 'EDProviders');
-    Session.set('search', '[a-zA-Z]+')
-  },
-  'click #section-title': function (evt) {
-  	Session.set('context', '[a-zA-Z]+')
+  'click .level2': function (evt) {
+    evt.preventDefault();
+    var level2 = evt.currentTarget.innerText;
+    Session.set('level2', level2);
+    Session.set('search', '[a-zA-Z]+'); // resets the search term
   }
 });
