@@ -29,6 +29,7 @@ Template.information.helpers({
     var level1 = Session.get('level1');
     var level2 = Session.get('level2');
     var search = Session.get('search')
+    console.log('log')
 		return Phonenumbers.find(
                 {$or: 
                   [
@@ -50,6 +51,7 @@ Template.information.helpers({
                   },
                   // The query looks into the level 2 field. 
                   {
+                  level1: level1,
                   level2: 
                     {
                       $regex: search, "$options": "i"
@@ -57,6 +59,8 @@ Template.information.helpers({
                   },
                   // Looks into level 3 field. 
                   {
+                  level1: level1,
+                  level2: level2,
                   level3: 
                     {
                       $regex: search, "$options": "i"

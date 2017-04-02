@@ -8,7 +8,11 @@ db.tmppn.find().addOption(DBQuery.Option.noTimeout).forEach(
     function(pn_doc) {
     	// var existing_level3_document = db.phoneNumbers.findOne({level3: pn_doc.level3, level1: pn_doc.level1, misc: pn_doc.misc})
         // If the level 3 document does not yet exist. 
-        var existing_level3_document = db.phoneNumbers.findOne({level3: pn_doc.level3})
+        var existing_level3_document = db.phoneNumbers.findOne({
+                                                level1: pn_doc.level1,
+                                                level2: pn_doc.level2,
+                                                level3: pn_doc.level3
+                                            })
     	if (existing_level3_document == null) {
     		db.phoneNumbers.insert({
                 level1: pn_doc.level1,

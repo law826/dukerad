@@ -42,46 +42,41 @@ Charge Nurse	681-4410	Providers	ED	ED Charge Nurse
 Flow Nurse	684-4705	Providers	ED	ED Flow Nurse	
 Resource Nurse	681-6809	Providers	ED	Resource Nurse	
 Xray	684-1278	Techs	Radiographs	ED	
-Body CT/MRI	684-7224	Reading Rooms	Body	Body	
-Bone Plain Film 1	684-7247	Reading Rooms	MSK	MSK	
-Bone Plain Film 2	684-7494	Reading Rooms	MSK	MSK	
-Bone Plain Film 3	684-0576	Reading Rooms	MSK	MSK	
-Bone Plain Film 4	684-7497	Reading Rooms	MSK	MSK	
-Bone Plain Film 5	684-7527	Reading Rooms	MSK	MSK	
-Bone Plain Film 6	684-7438	Reading Rooms	MSK	MSK	
-Bone Plain Film 7	684-7191	Reading Rooms	MSK	MSK	
-Bone CT/Arthrograms/Biopsies	684-7465	Reading Rooms	MSK	MSK	
-Bone MR 1	684-7248	Reading Rooms	MSK	MSK	
-Bone MR 2	684-0369	Reading Rooms	MSK	MSK	
-Bone MR 3	684-0618	Reading Rooms	MSK	MSK	
-Bone @ Page Rd	613-1776	Reading Rooms	MSK	MSK	
-Breast MR	684-7946	Reading Rooms	Breast	Breast	
-Breast intervention	684-1308	Reading Rooms	Breast	Breast	
-Cancer Center Moonlighter	613-2744	Reading Rooms	Call Phones	Call Phones	
-Cancer Center Reading Room 1	613-2741	Reading Rooms	Cancer Center	Cancer Center	
-Cancer Center Reading Room 2	613-2742	Reading Rooms	Cancer Center	Cancer Center	
-Cancer Center Reading Room 3	613-2743	Reading Rooms	Cancer Center	Cancer Center	
-Cancer Center Reading Room 4	613-2744	Reading Rooms	Cancer Center	Cancer Center	
-Cancer Center Reading Room 5	613-2745	Reading Rooms	Cancer Center	Cancer Center	
-Cancer Center Reading Room 6	613-2746	Reading Rooms	Cancer Center	Cancer Center	
-Chest CT	684-7419	Reading Rooms	Chest	Chest	
-Chest north films	684-7252	Reading Rooms	Chest	Chest	
-CVI	684-7414	Reading Rooms	CVI	CVI	
-GI	684-7250	Reading Rooms	GI	GI	
-GU	684-7818	Reading Rooms	GI	GI	
-Lenox Baker Reading Room	684-1514	Reading Rooms	Offsite	Offsite	
-Mammo	684-7816	Reading Rooms	Breast	Breast	
-Neuro CT	684-7213	Reading Rooms	Neuro	Neuro	
-Neuro MRI	684-7560	Reading Rooms	Neuro	Neuro	
-Nucs (DMP)	684-7207	Reading Rooms	Nucs	Nucs	
-Peds	684-7288	Reading Rooms	Peds	Peds	
-OB (FDC) Reading Room	684-2595	Reading Rooms	Offsite	Offsite	
-PET 1	613-2094	Reading Rooms	Nucs	Nucs	
-PET 2	613-2092	Reading Rooms	Nucs	Nucs	
-Southpoint Reading Room	572-2065	Reading Rooms	Offsite	Offsite	
-Ultrasound	684-7381	Reading Rooms	Ultrasound	Ultrasound	
-Vascular resident	684-7592	Reading Rooms	IR	IR	
-Vascular fellow	684-7383	Reading Rooms	IR	IR	
+Body CT/MRI	684-7224	Reading Room	Body	Body	
+Bone Plain Film 1	684-7247	Reading Room	MSK	MSK	
+Bone Plain Film 2	684-7494	Reading Room	MSK	MSK	
+Bone Plain Film 3	684-0576	Reading Room	MSK	MSK	
+Bone Plain Film 4	684-7497	Reading Room	MSK	MSK	
+Bone Plain Film 5	684-7527	Reading Room	MSK	MSK	
+Bone Plain Film 6	684-7438	Reading Room	MSK	MSK	
+Bone Plain Film 7	684-7191	Reading Room	MSK	MSK	
+Bone CT/Arthrograms/Biopsies	684-7465	Reading Room	MSK	MSK	
+Bone MR 1	684-7248	Reading Room	MSK	MSK	
+Bone MR 2	684-0369	Reading Room	MSK	MSK	
+Bone MR 3	684-0618	Reading Room	MSK	MSK	
+Bone @ Page Rd	613-1776	Reading Room	MSK	MSK	
+Breast MR	684-7946	Reading Room	Breast	Breast	
+Breast intervention	684-1308	Reading Room	Breast	Breast	
+Cancer Center Moonlighter	613-2744	Reading Room	Call Phones	Call Phones	
+Cancer Center	613-2741, 613-2742, 613-2743, 613-2744, 613-2745, 613-2746	Reading Room	Cancer Center	Cancer Center	
+Chest CT	684-7419	Reading Room	Chest	Chest	
+Chest north films	684-7252	Reading Room	Chest	Chest	
+CVI	684-7414	Reading Room	CVI	CVI	
+GI	684-7250	Reading Room	GI	GI	
+GU	684-7818	Reading Room	GI	GI	
+Lenox Baker	684-1514	Reading Room	Offsite	Offsite	
+Mammo	684-7816	Reading Room	Breast	Breast	
+Neuro CT	684-7213	Reading Room	Neuro	Neuro	
+Neuro MRI	684-7560	Reading Room	Neuro	Neuro	
+Nucs (DMP)	684-7207	Reading Room	Nucs	Nucs	
+Peds	684-7288	Reading Room	Peds	Peds	
+OB (FDC)	684-2595	Reading Room	Offsite	Offsite	
+PET 1	613-2094	Reading Room	Nucs	Nucs	
+PET 2	613-2092	Reading Room	Nucs	Nucs	
+Southpoint	572-2065	Reading Room	Offsite	Offsite	
+Ultrasound	684-7381	Reading Room	Ultrasound	Ultrasound	
+Vascular resident	684-7592	Reading Room	IR	IR	
+Vascular fellow	684-7383	Reading Room	IR	IR	
 CT TL TECH CELL PHONE	613-2772	Techs	CT	Cancer Center CT	
 TL NURSE CELL PHONE	613-2774	Techs	CT	Cancer Center CT	
 CCT 1	613-2716	Techs	CT	Cancer Center CT	
@@ -96,7 +91,7 @@ CMR2 (Skyra)	613-2735	Techs	MR	Cancer Center MRI
 CMR3 (Optima)	613-2732	Techs	MR	Cancer Center MRI	
 Work Area	613-2733	Techs	MR	Cancer Center MRI	
 Cary Front Desk	385-8100	Techs	Offsite	Offsite	
-Cary Reading Room	385-8102	Reading Rooms	Offsite	Offsite	
+Cary Reading Room	385-8102	Reading Room	Offsite	Offsite	
 Cary MR Tech	684-1501	Techs	MR	Cary MRI	
 Control desk	684-7221	Techs	CT	Duke North CT	
 C1	684-7264	Techs	CT	Duke North CT	
@@ -132,7 +127,7 @@ PCICU	681-4241	Providers	Duke North	Duke North	N4200 PCICU 4200 peds cards ICU
 DMP Perioperative (PACU)	385-3322	Providers	DMP	DMP	
 DMP OR Front Desk	385-3901	Providers	DMP	DMP	
 2100 (General surgery)	681-2141	Providers	Duke North	Duke North	DUH N2100 GENERAL SURGERY
-2200	681-2241	Providers	Duke North	Duke North	
+2200 (PACU Overflow)	681-2241	Providers	Duke North	Duke North	
 2300 (General Surgery)	681-2341	Providers	Duke North	Duke North	DUH N2300 GENERAL SURGERY
 3300 (Cardiothoracic Surgery)	681-3341	Providers	Duke North	Duke North	DUH N3300 GEN THOR CARD SURG
 5400 (OB/Gyn triage)	681-6070	Providers	Duke North	Duke North	
@@ -187,17 +182,17 @@ MRI	954-3600, 954-3604	Techs	MR	Duke Raleigh
 MRI MOBILE	862-5868	Techs	MR	Duke Raleigh	
 NM	954-3346 / 954-3555	Techs	Nucs	Duke Raleigh	
 PET	954-5259	Techs	Nucs	Duke Raleigh	
-CT/MRI	954-3597	Reading Rooms	Offsite	Duke Raleigh	
-Fluoro/Plain films/US	954-3619	Reading Rooms	Offsite	Duke Raleigh	
-IR	954-3636	Reading Rooms	Offsite	Duke Raleigh	
+CT/MRI	954-3597	Reading Room	Offsite	Duke Raleigh	
+Fluoro/Plain films/US	954-3619	Reading Room	Offsite	Duke Raleigh	
+IR	954-3636	Reading Room	Offsite	Duke Raleigh	
 General	862-5200	Other	Duke Raleigh	Duke Raleigh Outpatient Imaging Center	
 CT	862-5205	Techs	CT	Duke Raleigh Outpatient Imaging Center	
 Mammo	862-5211	Techs	Radiographs	Duke Raleigh Outpatient Imaging Center	
-Duke Raleigh Outpatient Imaging Center Reading Room	862-5204	Reading Rooms	Offsite	Offsite	
+Duke Raleigh Outpatient Imaging Center	862-5204	Reading Room	Offsite	Offsite	
 US	862-5212	Techs	Ultrasound	Duke Raleigh Outpatient Imaging Center	
 CT	307-0013	Techs	CT	Macon Pond	
 Mammo	307-0082	Techs	Radiographs	Macon Pond	
-Macon Pond Reading Room	307-0091	Reading Rooms	Offsite	Offsite	
+Macon Pond	307-0091	Reading Room	Offsite	Offsite	
 US	307-0007	Techs	Ultrasound	Macon Pond	
 Main	954-3141	Other	Duke Raleigh	Ultrasound Center	
 Mary	954-3622	Other	Duke Raleigh	Ultrasound Center	
@@ -230,13 +225,13 @@ Duke North MR3 3T GE	684-7301	Techs	MR	Duke North MR
 MR Lenox Baker MRI	684-1504, 684-1505	Techs	MR	Offsite	
 MR Page Road	684-1502	Techs	MR	Offsite	
 MR Southpoint scanner	572-2080	Techs	MR	Offsite	
-Senior Call Phone	681-4422	Reading Rooms	Call Phones	Call Phones	
-ER/Box Phone	681-4475	Reading Rooms	Call Phones	Call Phones	
-Junior Call Phone	681-4400	Reading Rooms	Call Phones	Call Phones	
-Late neuro	684-7213 (RR) / 681-4422 (after 5pm weekdays)	Reading Rooms	Call Phones	Call Phones	
-Neuro MR fellow	684-7564	Reading Rooms	Call Phones	Call Phones	
-Late body	684-7224	Reading Rooms	Call Phones	Call Phones	
-Vascular rad pager	970-7930	Reading Rooms	Call Phones	Call Phones	
+Senior Call Phone	681-4422	Reading Room	Call Phones	Call Phones	
+ER/Box Phone	681-4475	Reading Room	Call Phones	Call Phones	
+Junior Call Phone	681-4400	Reading Room	Call Phones	Call Phones	
+Late neuro	684-7213 (RR) / 681-4422 (after 5pm weekdays)	Reading Room	Call Phones	Call Phones	
+Neuro MR fellow	684-7564	Reading Room	Call Phones	Call Phones	
+Late body	684-7224	Reading Room	Call Phones	Call Phones	
+Vascular rad pager	970-7930	Reading Room	Call Phones	Call Phones	
 3D lab	684-8909	Other	Duke	Duke	
 CT General Anesthesia Coordination	684-7719	Techs	CT	Duke North CT	
 CT south	684-7960	Techs	CT	Duke South CT	
@@ -298,9 +293,9 @@ Dale Kuerbitz, AO	286-0411 x6606	Other	VA	VA
 Michelle – TALK login issues	286-0411 x5264	Other	VA	VA	
 CPRS/PACS/other login issues	286-0411 x5812	Other	VA	VA	
 Betsy (Chief Tech)	286-6928	Techs	CT	VA	
-Outpt plain films	286-0411 x5262	Reading Rooms	VA	VA	
-Inpt plain films	286-0411 x7497	Reading Rooms	VA	VA	
-CT/Ultrasound	286-0411 x6622	Reading Rooms	VA	VA	
-MRI resident	286-0411 x6623	Reading Rooms	VA	VA	
-Neurorad	286-0411 x5680	Reading Rooms	VA	VA	
-Nucs	286-0411 x7357	Reading Rooms	VA	VA	
+Outpt plain films	286-0411 x5262	Reading Room	VA	VA	
+Inpt plain films	286-0411 x7497	Reading Room	VA	VA	
+CT/Ultrasound	286-0411 x6622	Reading Room	VA	VA	
+MRI resident	286-0411 x6623	Reading Room	VA	VA	
+Neurorad	286-0411 x5680	Reading Room	VA	VA	
+Nucs	286-0411 x7357	Reading Room	VA	VA	
